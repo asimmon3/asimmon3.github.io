@@ -1,0 +1,34 @@
+html {
+    background-color: #CF0C0F;
+  }
+p {
+    color: rgb(0, 0, 0);
+    width: 500px;
+    border: 1px solid black;
+    font-family: 'Ubuntu', sans-serif;
+  }
+h1 {
+    font-size: 69px; /* px means "pixels": the base font size is now 10 pixels high  */
+    font-family: 'Hanalei Fill', cursive; /* output from Google Fonts */
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+    color: #F0CE47;
+    text-shadow: 3px 3px 1px black;
+}
+.Joey, .Ari, .Dasha, .important-proclamation {
+    font-size: 40px;
+    font-family: 'Hanalei Fill', cursive;
+}
+body {
+    width: 600px;
+    margin: 0 auto;
+    background-color: #00539F;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+}
+#Ari-Intro-Pic, #Joey-Intro-Pic, #Dasha-Intro-Pic {
+    display: block;
+    margin: 0 auto;
+    width: 350px;
+}
