@@ -9,30 +9,6 @@ myImage.onclick = function() {
     }
 }
 
-let myButton = document.querySelector('#change-user');
-let myHeading = document.querySelector('#welcome-message');
-
-function setUserName() {
-    let myName = prompt('Please enter your name.');
-    if(!myName) {
-      setUserName();
-    } else {
-      localStorage.setItem('name', myName);
-      myHeading.textContent = `WELCOME TO VOLCANO ISLAND, ${myName}!`;
-    }
-  }
-
-if(!localStorage.getItem('name')) {
-  setUserName();
-} else {
-  let storedName = localStorage.getItem('name');
-  myHeading.textContent = 'WELCOME TO VOLCANO ISLAND, ' + storedName + '!';
-}
-
-myButton.onclick = function() {
-    setUserName();
-  }
-
 /* When the user clicks on the button,
 toggle between hiding and showing the dropdown content */
 function myFunction() {
