@@ -108,9 +108,17 @@ body {
     font-size: 1.2rem;
 }
 
-.day-forecast {
+#two-days-date {
     background: right/contain content-box border-box no-repeat
-        url('/media/examples/rain.svg') white;
+        url('/images/bw_rainy.jpeg') white;
+}
+#tomorrow-date {
+  background: right/contain content-box border-box no-repeat
+      url('/images/bw_sunshine.png') white;
+}
+#today-date {
+  background: right/contain content-box border-box no-repeat
+      url('/images/bw_volcano.png') white;
 }
 
 .day-forecast > h4,
