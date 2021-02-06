@@ -118,7 +118,7 @@ body {
 }
 #today-date {
   background: right/contain content-box border-box no-repeat
-      url('/images/bw_volcano.png') white;
+      url('/images/volcano-svgrepo-com.svg') white;
 }
 
 .day-forecast > h4,
